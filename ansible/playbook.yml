@@ -1,0 +1,9 @@
+---
+- name: s3fs playbook
+  hosts: vps
+  gather_facts: false
+  vars_files:
+    - group_vars/s3.yml
+  become: true
+  roles:
+    - s3fs

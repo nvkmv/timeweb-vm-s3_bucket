@@ -1,0 +1,2 @@
+[vps]
+ 89.19.208.134 ansible_ssh_user=root ansible_user=root
