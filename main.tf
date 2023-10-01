@@ -17,7 +17,7 @@ data "twc_os" "example-os" {
 }
 
 data "twc_ssh_keys" "example-key" {
-  name = "you_ssh_key_name"
+  name = "you_ssh_key_name" #in you timeweb account
 }
 
 # Select any preset from location = "ru-1", 10 Gb disk space with price between 50 and 100 RUB
